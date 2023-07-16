@@ -1,0 +1,35 @@
+{
+  "name": "tito-practice-js",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/resources/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanquocc/TITO-Practice-Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuanquocc/TITO-Practice-Js/issues"
+  },
+  "homepage": "https://github.com/xuanquocc/TITO-Practice-Js#readme",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "parcel": "^2.9.3",
+    "prettier": "3.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js}": "eslint --cache --fix",
+    "src/**/*.{js,scss,md,html,json}": "prettier --write --ignore-unknown"
+  }
+}
