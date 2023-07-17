@@ -4,6 +4,7 @@
   "description": "",
   "source": "src/resources/index.html",
   "scripts": {
+    "jsv": "json-server --watch db.json",
     "start": "parcel",
     "build": "parcel build",
     "prepare": "husky install"
@@ -31,5 +32,9 @@
   "lint-staged": {
     "src/**/*.{js}": "eslint --cache --fix",
     "src/**/*.{js,scss,md,html,json}": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "uuid": "^9.0.0"
   }
 }

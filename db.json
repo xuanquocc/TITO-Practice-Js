@@ -1,0 +1,13 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "NLA",
+            "age": 18,
+            "location": "da nang",
+            "phone": 389300349,
+            "gpa": 3.14,
+            "check": false
+        }
+    ]
+}
